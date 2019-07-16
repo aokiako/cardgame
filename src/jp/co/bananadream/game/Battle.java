@@ -180,6 +180,9 @@ public class Battle {
 				monster1 = monster2;
 				monster2 = m1;
 
+				monster[0] = monster1;
+				monster[1] = monster2;
+
 			}
 
 		}
